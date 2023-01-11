@@ -1,2 +1,2 @@
 #!/bin/bash
-root@ea4a54abe8d3:/holbertonschool-system_engineering-devops/0x00-shell_basics
+pwd 0-current_working_directory
