@@ -3,13 +3,12 @@
 #   On the 9th iteration, displays "Best School" before "Hi".
 
 count=1
-
-while [ $count <= 10 ]
+while [ $count -le 10 ]
 do
-		  echo "Best School"
-			if [ $count == 9]
-	 			then
-					echo "Hi"
-	fi
-	 ((count++))
+echo "Best School"
+if [ $count == 9 ]
+then
+echo "Hi"
+fi
+((count++))
  done
