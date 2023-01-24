@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-count=0
+Displays "Best School" 10 times using a while loop.
+#   On the 9th iteration, displays "Best School and then "Hi" on a new line.
 
 while [ $count -lt 10 ]
 do
